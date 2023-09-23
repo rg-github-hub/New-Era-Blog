@@ -50,7 +50,7 @@ export const HomeHero: FC = () => {
               fontWeight: 500,
             }}
           >
-            New Era Academy is a hub for students seeking opportunities to learn, grow, and thrive in a digital world. We believe that education should be accessible to all, regardless of time, location, or financial constraints. That's why we've created a virtual learning platform where knowledge knows no boundaries.
+            New Era Academy is a hub for students seeking opportunities to learn, grow, and thrive in a digital world. We believe that education should be accessible to all, regardless of time, location, or financial constraints. That&apos;s why we&apos;ve created a virtual learning platform where knowledge knows no boundaries.
           </Typography>
           <Stack
             alignItems="center"
