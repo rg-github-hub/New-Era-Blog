@@ -23,15 +23,15 @@ const features: Feature[] = [
     id: 'experts',
     title: 'Distance Learning',
     description:
-      'Distance learning, also known as online education, has gained significant popularity due to its flexibility and accessibility, allowing learners to access educational content from anywhere with an internet connection. It has revolutionized education by breaking down geographical barriers and offering diverse learning opportunities.',
-    imageDark: '/assets/home-features-experts-dark.png',
-    imageLight: '/assets/home-features-experts-light.png',
+      'In New Era Academy, we are dedicated to revolutionizing the way you learn. With a diverse and comprehensive range of courses, taught by experienced educators and experts, we offer a wealth of knowledge and skills across various disciplines. From academic subjects to practical skills and professional development, our courses are designed to prepare you for success in a rapidly evolving world.',
+    imageDark: '/assets/neweralogo.jpeg',
+    imageLight: '/assets/neweralogo.jpeg',
   },
   {
     id: 'figma',
     title: 'Incubate and Collaborate on Ideas',
     description:
-      "ollaborative learning enhances education by encouraging students to work together, fostering teamwork and critical thinking.",
+      "One of the key advantages of our online academy is flexibility. Say goodbye to rigid schedules and classroom commutes. With our platform, learning fits seamlessly into your life, allowing you to study at your own pace and according to your individual needs. Whether you prefer to dive deep into a subject or prefer to consume bite-sized lessons, our platform adapts to your learning style.",
     imageDark: '/assets/home-features-figma-dark.png',
     imageLight: '/assets/home-features-figma-light.png',
   },
@@ -39,7 +39,7 @@ const features: Feature[] = [
     id: 'tech',
     title: 'Reviews do speak ...',
     description:
-      'We learn and grow by actively listening to our students feedback and insights, using their input to continually improve and innovate.',
+      "We understand that interaction is a vital component of a fulfilling learning experience. That's why our online academy fosters a vibrant and supportive community of learners. Engage in discussions, collaborate with fellow students, and receive feedback from instructors who are passionate about your growth.",
     imageDark: '/assets/home-features-tech-dark.png',
     imageLight: '/assets/home-features-tech-light.png',
   },
@@ -137,25 +137,7 @@ export const HomeFeatures: FC = () => {
                     >
                       {feature.description}
                     </Typography>
-                    {feature.id === 'figma' && (
-                      <Box sx={{ mt: 3 }}>
-                        <Button
-                          color="success"
-                          component="a"
-                          endIcon={
-                            <SvgIcon fontSize="small">
-                              <LinkExternal01Icon />
-                            </SvgIcon>
-                          }
-                          href="https://www.figma.com/file/xrx6uDljzsWuDZiuz3ITCp/Devias-Kit-Pro-UI-6.0-Master"
-                          size="small"
-                          target="_blank"
-                          variant="contained"
-                        >
-                          Preview in Figma
-                        </Button>
-                      </Box>
-                    )}
+                    
                   </Box>
                 );
               })}

@@ -50,7 +50,7 @@ export const HomeHero: FC = () => {
               fontWeight: 500,
             }}
           >
-            Since 1991, Edutech is a leading provider of World Class educational equipments, digital learning solutions and services for academic institutions, corporates & government initiatives.
+            New Era Academy is a hub for students seeking opportunities to learn, grow, and thrive in a digital world. We believe that education should be accessible to all, regardless of time, location, or financial constraints. That's why we've created a virtual learning platform where knowledge knows no boundaries.
           </Typography>
           <Stack
             alignItems="center"

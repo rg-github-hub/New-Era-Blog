@@ -25,11 +25,11 @@ const sections: Section[] = [
     title: 'Reach Us',
     items: [
       {
-        title: '+91 9870367348',
+        title: '+91 88822 04002',
         path: "",
       },
       {
-        title: 'rahulguptadev02@gmail.com',
+        title: 'neweraacademy64@gmail.com',
         path: "",
       },
     ],
@@ -56,7 +56,7 @@ const sections: Section[] = [
     items: [
       {
         title: 'Instagram',
-        path: '#',
+        path: 'https://www.instagram.com/neweraacademy64',
       },
       {
         title: 'LinkedIn',

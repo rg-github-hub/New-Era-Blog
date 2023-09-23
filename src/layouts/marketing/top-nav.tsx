@@ -191,13 +191,23 @@ export const TopNav: FC<TopNavProps> = (props) => {
             direction="row"
             justifyContent="flex-end"
             spacing={2}
+            // href={paths.index}
             sx={{ flexGrow: 1 }}
           >
+            <Button
+              size={mdUp ? 'medium' : 'small'}
+              variant="contained"
+              href="https://forms.gle/muQK6ZB7o4jfiNNbA"
+          target="_blank"
+            >
+              Join Us
+            </Button>
             <Button
               component="a"
               size={mdUp ? 'medium' : 'small'}
               target="_blank"
-              variant="contained"
+              href="https://forms.gle/muQK6ZB7o4jfiNNbA"
+              // variant="contained"
             >
               Dashboard
             </Button>
