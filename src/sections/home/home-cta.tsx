@@ -44,7 +44,7 @@ So, are you ready to embark on an exciting educational adventure? Join our vibra
       >
         <Button
           component="a"
-          href="https://ykyh5mgzaf0.typeform.com/to/iI0tc8WZ"
+          href="https://forms.gle/muQK6ZB7o4jfiNNbA"
           target="_blank"
           variant="contained"
         >
