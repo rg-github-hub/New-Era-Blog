@@ -22,6 +22,7 @@ import { paths } from 'src/paths';
 
 import { PagesPopover } from './pages-popover';
 import { TopNavItem } from './top-nav-item';
+import { PagesPopoverCurriculum } from './pages-popover-curriculum';
 
 interface Item {
   disabled?: boolean;
@@ -33,18 +34,14 @@ interface Item {
 
 const items: Item[] = [
   {
-    title: 'Components',
-    path: paths.components.index,
+    title: 'Curriculum',
+    popover: <PagesPopoverCurriculum />
   },
   {
-    title: 'Pages',
+    title: 'Subjects',
     popover: <PagesPopover />,
   },
-  {
-    title: 'Docs',
-    path: paths.docs,
-    external: true,
-  },
+  
 ];
 
 const TOP_NAV_HEIGHT = 64;
@@ -181,6 +178,52 @@ export const TopNav: FC<TopNavProps> = (props) => {
                 >
                   <>
                     
+                  </>
+                </Stack>
+              </Box>
+            </Stack>
+          )}
+          {mdUp && (
+            <Stack
+              alignItems="center"
+              direction="row"
+              spacing={2}
+            >
+              <Box
+                component="nav"
+                sx={{ height: '100%' }}
+              >
+                <Stack
+                  component="ul"
+                  alignItems="center"
+                  justifyContent="center"
+                  direction="row"
+                  spacing={1}
+                  sx={{
+                    height: '100%',
+                    listStyle: 'none',
+                    m: 0,
+                    p: 0,
+                  }}
+                >
+                  <>
+                    {items.map((item) => {
+                      const checkPath = !!(item.path && pathname);
+                      const partialMatch = checkPath ? pathname.includes(item.path!) : false;
+                      const exactMatch = checkPath ? pathname === item.path : false;
+                      const active = item.popover ? partialMatch : exactMatch;
+
+                      return (
+                        <TopNavItem
+                          active={active}
+                          external={item.external}
+                          key={item.title}
+                          path={item.path}
+                          popover={item.popover}
+                          title={item.title}
+                        />
+                      );
+                    })}
                   </>
                 </Stack>
               </Box>

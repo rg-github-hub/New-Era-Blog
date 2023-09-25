@@ -34,7 +34,7 @@ const sections: Section[] = [
   {
     items: [
       {
-        title: 'Languages',
+        title: 'Curriculum',
         path: '',
         icon: (
           <SvgIcon fontSize="small">
@@ -44,23 +44,23 @@ const sections: Section[] = [
         caption: '',
         children: [
           {
-            title: 'Hindi',
+            title: 'CBSE',
             path: "",
           },
           {
-            title: 'English',
+            title: 'ICSE',
             path: "",
           },
           {
-            title: 'German',
+            title: 'IGCSE',
             path: "",
           },
           {
-            title: 'Australian',
+            title: 'GCSE',
             path: "",
           },
           {
-            title: 'French',
+            title: 'IB',
             path: "",
           },
         ],
@@ -70,8 +70,8 @@ const sections: Section[] = [
   {
     items: [
       {
-        title: 'Maths',
-        path: "",
+        title: 'AUstralian',
+        path: paths.dashboard.blog.index,
         icon: (
           <SvgIcon fontSize="small">
             <LayoutAlt02Icon />
@@ -79,8 +79,8 @@ const sections: Section[] = [
         ),
       },
       {
-        title: 'Science',
-        path: "",
+        title: 'Canadian',
+        path: paths.pricing,
         icon: (
           <SvgIcon fontSize="small">
             <CreditCard01Icon />
@@ -88,8 +88,8 @@ const sections: Section[] = [
         ),
       },
       {
-        title: 'Physics',
-        path: "",
+        title: 'Singapore',
+        path: paths.contact,
         icon: (
           <SvgIcon fontSize="small">
             <Mail04Icon />
@@ -97,73 +97,19 @@ const sections: Section[] = [
         ),
       },
       {
-        title: 'Chemistry',
-        path: "",
+        title: 'Hongkong',
+        path: paths.checkout,
         icon: (
           <SvgIcon fontSize="small">
             <LayoutAlt02Icon />
           </SvgIcon>
         ),
-      },
-      {
-        title: 'Biology',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <CreditCard01Icon />
-          </SvgIcon>
-        ),
-      },
-      {
-        title: 'Triple Science',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <Mail04Icon />
-          </SvgIcon>
-        ),
-      },
-      {
-        title: 'Statistics',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <LayoutAlt02Icon />
-          </SvgIcon>
-        ),
-      },
-      {
-        title: 'Calculus',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <CreditCard01Icon />
-          </SvgIcon>
-        ),
-      },
-      {
-        title: 'AP Physics',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <CreditCard01Icon />
-          </SvgIcon>
-        ),
-      },
-      {
-        title: 'MYP',
-        path: "",
-        icon: (
-          <SvgIcon fontSize="small">
-            <CreditCard01Icon />
-          </SvgIcon>
-        ),
-      },
+      }
     ],
   },
 ];
 
-export const PagesPopover: FC = () => (
+export const PagesPopoverCurriculum: FC = () => (
   <Box
     sx={{
       display: 'grid',
@@ -209,7 +155,7 @@ export const PagesPopover: FC = () => (
                     px: '12px',
                     py: '6px',
                     textAlign: 'left',
-                    width: '100%',
+                    // width: '100%',
                     '&:hover': {
                       backgroundColor: 'action.hover',
                     },
@@ -224,7 +170,7 @@ export const PagesPopover: FC = () => (
                       display: 'inline-flex',
                       justifyContent: 'center',
                       mr: 2,
-                      width: 20,
+                      width: 10,
                     }}
                   >
                     {item.icon}
