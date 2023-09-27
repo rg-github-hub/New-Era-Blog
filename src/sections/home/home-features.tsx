@@ -29,19 +29,19 @@ const features: Feature[] = [
   },
   {
     id: 'figma',
-    title: 'Incubate and Collaborate on Ideas',
+    title: 'Flexible and Simple',
     description:
       "One of the key advantages of our online academy is flexibility. Say goodbye to rigid schedules and classroom commutes. With our platform, learning fits seamlessly into your life, allowing you to study at your own pace and according to your individual needs. Whether you prefer to dive deep into a subject or prefer to consume bite-sized lessons, our platform adapts to your learning style.",
-    imageDark: '/assets/home-features-figma-dark.png',
-    imageLight: '/assets/home-features-figma-light.png',
+    imageDark: '/assets/flexibility.png',
+    imageLight: '/assets/flexibility.png',
   },
   {
     id: 'tech',
     title: 'Reviews do speak ...',
     description:
       "We understand that interaction is a vital component of a fulfilling learning experience. That's why our online academy fosters a vibrant and supportive community of learners. Engage in discussions, collaborate with fellow students, and receive feedback from instructors who are passionate about your growth.",
-    imageDark: '/assets/home-features-tech-dark.png',
-    imageLight: '/assets/home-features-tech-light.png',
+    imageDark: '/assets/reviews1.png',
+    imageLight: '/assets/reviews1.png',
   },
   
 ];
