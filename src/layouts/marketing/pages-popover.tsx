@@ -159,6 +159,43 @@ const sections: Section[] = [
           </SvgIcon>
         ),
       },
+      //Abacus, Vedic Maths, Mental maths, Olympiad Maths,
+      {
+        title: 'Olympiad Maths',
+        path: "",
+        icon: (
+          <SvgIcon fontSize="small">
+            <CreditCard01Icon />
+          </SvgIcon>
+        ),
+      },
+      {
+        title: 'Abacus',
+        path: "",
+        icon: (
+          <SvgIcon fontSize="small">
+            <CreditCard01Icon />
+          </SvgIcon>
+        ),
+      },
+      {
+        title: 'Vedic Maths',
+        path: "",
+        icon: (
+          <SvgIcon fontSize="small">
+            <CreditCard01Icon />
+          </SvgIcon>
+        ),
+      },
+      {
+        title: 'Mental Maths',
+        path: "",
+        icon: (
+          <SvgIcon fontSize="small">
+            <CreditCard01Icon />
+          </SvgIcon>
+        ),
+      },
     ],
   },
 ];
