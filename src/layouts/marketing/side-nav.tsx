@@ -94,11 +94,11 @@ const items: Item[] = [
             path: "",
           },
           {
-            title: 'German',
+            title: 'Tamil',
             path: "",
           },
           {
-            title: 'Australian',
+            title: 'German',
             path: "",
           },
           {

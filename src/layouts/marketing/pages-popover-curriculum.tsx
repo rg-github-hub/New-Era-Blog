@@ -70,7 +70,7 @@ const sections: Section[] = [
   {
     items: [
       {
-        title: 'AUstralian',
+        title: 'Australian',
         path: paths.dashboard.blog.index,
         icon: (
           <SvgIcon fontSize="small">
