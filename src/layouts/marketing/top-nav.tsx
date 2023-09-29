@@ -183,7 +183,7 @@ export const TopNav: FC<TopNavProps> = (props) => {
               </Box>
             </Stack>
           )}
-          {mdUp && (
+          {  (
             <Stack
               alignItems="center"
               direction="row"
@@ -254,7 +254,6 @@ export const TopNav: FC<TopNavProps> = (props) => {
             >
               Dashboard
             </Button>
-            
           </Stack>
         </Stack>
       </Container>
