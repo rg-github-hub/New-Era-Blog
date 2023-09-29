@@ -254,6 +254,13 @@ export const TopNav: FC<TopNavProps> = (props) => {
             >
               Dashboard
             </Button>
+            {!mdUp && (
+              <IconButton onClick={onMobileNavOpen}>
+                <SvgIcon fontSize="small">
+                  <Menu01Icon />
+                </SvgIcon>
+              </IconButton>
+            )}
           </Stack>
         </Stack>
       </Container>
