@@ -29,7 +29,7 @@ const sections: Section[] = [
         path: "",
       },
       {
-        title: 'neweraacademy64@gmail.com',
+        title: 'anita.gupta@neweraacademy.co.in',
         path: "",
       },
     ],

@@ -238,14 +238,6 @@ export const TopNav: FC<TopNavProps> = (props) => {
             sx={{ flexGrow: 1 }}
           >
             <Button
-              size={mdUp ? 'medium' : 'small'}
-              variant="contained"
-              href="https://forms.gle/muQK6ZB7o4jfiNNbA"
-          target="_blank"
-            >
-              Join Us
-            </Button>
-            <Button
               component="a"
               size={mdUp ? 'medium' : 'small'}
               target="_blank"
@@ -253,6 +245,14 @@ export const TopNav: FC<TopNavProps> = (props) => {
               // variant="contained"
             >
               Dashboard
+            </Button>
+            <Button
+              size={mdUp ? 'medium' : 'small'}
+              variant="contained"
+              href="https://forms.gle/muQK6ZB7o4jfiNNbA"
+          target="_blank"
+            >
+              Join Us
             </Button>
             {!mdUp && (
               <IconButton onClick={onMobileNavOpen}>
