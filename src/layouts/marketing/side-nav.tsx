@@ -17,7 +17,7 @@ interface Item {
     subheader?: string;
     items: {
       external?: boolean;
-      path: string;
+      path: "",
       title: string;
     }[];
   }[];
@@ -29,68 +29,142 @@ interface Item {
 
 const items: Item[] = [
   {
-    title: 'Components',
-    path: paths.components.index,
-  },
-  {
-    title: 'Pages',
+    title: 'Curriculum',
     children: [
       {
-        subheader: 'Dashboard',
+        subheader: 'Core',
         items: [
           {
-            title: 'Overview',
-            path: paths.dashboard.index,
+            title: 'CBSE',
+            path: "",
           },
           {
-            title: 'Customers',
-            path: paths.dashboard.customers.index,
+            title: 'ICSE',
+            path: "",
           },
           {
-            title: 'Logistics',
-            path: paths.dashboard.logistics.index,
+            title: 'IGCSE',
+            path: "",
           },
           {
-            title: 'File Manager',
-            path: paths.dashboard.fileManager,
+            title: 'GCSE',
+            path: "",
           },
           {
-            title: 'Academy',
-            path: paths.dashboard.academy.index,
+            title: 'IB',
+            path: "",
+          },
+        ]
+      },
+      {
+        subheader: 'International',
+        items: [
+          {
+            title: 'Australian',
+            path: "",
+          },
+          {
+            title: 'Canadian',
+            path: "",
+          },
+          {
+            title: 'Singapore',
+            path: "",
+          },
+          {
+            title: 'Hongkong',
+            path: "",
+          },
+        ]
+      }
+    ]
+  },
+  {
+    title: 'Subjects',
+    children: [
+      {
+        subheader: 'Languages',
+        items: [
+          {
+            title: 'Hindi',
+            path: "",
+          },
+          {
+            title: 'English',
+            path: "",
+          },
+          {
+            title: 'German',
+            path: "",
+          },
+          {
+            title: 'Australian',
+            path: "",
+          },
+          {
+            title: 'French',
+            path: "",
           },
         ],
       },
       {
-        subheader: 'Other',
+        subheader: 'Core',
         items: [
           {
-            title: 'Blog',
-            path: paths.dashboard.blog.index,
+            title: 'Maths',
+            path: "",
           },
           {
-            title: 'Pricing',
-            path: paths.pricing,
+            title: 'Science',
+            path: "",
           },
           {
-            title: 'Contact',
-            path: paths.contact,
+            title: 'Physics',
+            path: "",
           },
           {
-            title: 'Checkout',
-            path: paths.checkout,
+            title: 'Chemistry',
+            path: "",
           },
           {
-            title: 'Error',
-            path: paths.notFound,
+            title: 'Biology',
+            path: "",
+          },
+          {
+            title: 'Statistics',
+            path: "",
+          },
+          {
+            title: 'Calculus',
+            path: "",
+          },
+          {
+            title: 'AP Physics',
+            path: "",
+          },
+          {
+            title: 'MYP',
+            path: "",
+          },
+          {
+            title: 'Abacus',
+            path: "",
+          },
+          {
+            title: 'Vedic Maths',
+            path: "",
+          },
+          {
+            title: 'Mental Maths',
+            path: "",
+          },
+          {
+            title: 'Olympiad Maths',
+            path: "",
           },
         ],
       },
     ],
-  },
-  {
-    title: 'Docs',
-    path: paths.docs,
-    external: true,
   },
 ];
 
