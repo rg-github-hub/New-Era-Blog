@@ -401,7 +401,7 @@ export const SideNav: FC<SideNavProps> = (props) => {
               },
             }}
           >
-            Devias Kit <span>PRO</span>
+             New Era <span>Academy</span>
           </Box>
         </Stack>
       </Box>
